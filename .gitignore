@@ -1,0 +1,13 @@
+# --- Arquivos locais / internos: NÃO vão para o deploy do GitHub Pages ---
+
+# Configuração e ferramentas locais do Claude Code (servidor de preview, settings)
+.claude/
+
+# Documentos internos do projeto (não fazem parte do app publicado)
+*.docx
+PROMPT-CLAUDE-CODE-Torre-de-Controle-Belcar.md
+
+# Lixo de SO / editores
+.DS_Store
+Thumbs.db
+node_modules/
