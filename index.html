@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Torre de Controle · Entrega Técnica Belcar</title>
-  <link rel="stylesheet" href="assets/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torre de Controle</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/mobile.css">
 </head>
+
 <body>
-  <div id="app">
-    <div class="boot">Carregando Torre de Controle…</div>
-  </div>
+    <div id="app">
+        <h1>Carregando Torre de Controle...</h1>
+    </div>
 
-  <!-- Overlay para modais e painel do veículo -->
-  <div id="overlay" class="overlay" hidden>
-    <div id="overlay-card" class="overlay-card" role="dialog" aria-modal="true"></div>
-  </div>
-
-  <!-- Toast de avisos -->
-  <div id="toast" class="toast" hidden></div>
-
-  <!-- Ordem de carregamento: modelo de dados primeiro, depois a aplicação -->
-  <script src="assets/data.js"></script>
-  <script src="assets/app.js"></script>
+    <!-- JS -->
+    <script src="assets/data.js"></script>
+    <script src="assets/app.js"></script>
+    <script src="assets/mobile.js"></script>
 </body>
 </html>
